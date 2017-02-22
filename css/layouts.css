@@ -1,0 +1,564 @@
+/*=======Globals=======*/
+
+//AFINIR https://dirtymarkup.com/?ref=abs
+/*=======Layouts=======*/
+
+html,
+body {
+	font-family: Verdana, sans-serif;
+	font-size: 15px;
+	line-height: 1.5
+}
+
+html {
+	overflow-x: hidden
+}
+
+.w3-container:after,
+.w3-panel:after,
+.w3-row:after,
+.w3-row-padding:after,
+.w3-topnav:after,
+.w3-clear:after,
+.w3-btn-group:before,
+.w3-btn-group:after,
+.w3-btn-bar:before,
+.w3-btn-bar:after {
+	content: "";
+	display: table;
+	clear: both
+}
+
+.w3-tooltip,
+.w3-display-container {
+	position: relative
+}
+
+.w3-tooltip .w3-text {
+	display: none
+}
+
+.w3-tooltip:hover .w3-text {
+	display: inline-block
+}
+
+.w3-main,
+#main {
+	transition: margin-left .4s
+}
+
+.w3-overlay {
+	position: fixed;
+	display: none;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 2
+}
+
+.w3-content {
+	max-width: 980px;
+	margin: auto
+}
+
+.w3-rest {
+	overflow: hidden
+}
+
+.w3-layout-container {
+	display: table;
+	width: 100%
+}
+
+.w3-layout-row {
+	display: table-row
+}
+
+.w3-layout-cell,
+.w3-layout-col {
+	display: table-cell
+}
+
+.w3-responsive {
+	overflow-x: auto
+}
+
+
+/*layouts Media Querry*/
+
+@media (max-width:600px) {
+	.w3-hide-small {
+		display: none!important
+	}
+}
+
+@media (max-width:992px) and (min-width:601px) {
+	.w3-hide-medium {
+		display: none!important
+	}
+}
+
+@media (min-width:993px) {
+	.w3-hide-large {
+		display: none!important
+	}
+}
+
+@media only screen and (max-width:600px) {
+	.w3-layout-col {
+		display: block;
+		width: 100%!important
+	}
+}
+
+
+/*----List----*/
+
+ul.w3-ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0
+}
+
+ul.w3-ul li {
+	padding: 6px 2px 6px 16px;
+	border-bottom: 1px solid #ddd
+}
+
+ul.w3-ul li:last-child {
+	border-bottom: none
+}
+
+
+/*----Position----*/
+
+.w3-layout-top {
+	vertical-align: top
+}
+
+.w3-layout-middle {
+	vertical-align: middle
+}
+
+.w3-layout-bottom {
+	vertical-align: bottom
+}
+
+.w3-left {
+	float: left!important
+}
+
+.w3-right {
+	float: right!important
+}
+
+.w3-top,
+.w3-bottom {
+	position: fixed;
+	width: 100%;
+	z-index: 1
+}
+
+.w3-top {
+	top: 0
+}
+
+.w3-bottom {
+	bottom: 0
+}
+
+.w3-hide {
+	display: none!important
+}
+
+.w3-show-block,
+.w3-show {
+	display: block!important
+}
+
+.w3-show-inline-block {
+	display: inline-block!important
+}
+
+
+/*Display*/
+
+.w3-display-topleft {
+	position: absolute;
+	left: 0;
+	top: 0
+}
+
+.w3-display-topright {
+	position: absolute;
+	right: 0;
+	top: 0
+}
+
+.w3-display-bottomleft {
+	position: absolute;
+	left: 0;
+	bottom: 0
+}
+
+.w3-display-bottomright {
+	position: absolute;
+	right: 0;
+	bottom: 0
+}
+
+.w3-display-middle {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%)
+}
+
+.w3-display-left {
+	position: absolute;
+	top: 50%;
+	left: 0%;
+	transform: translate(0%, -50%);
+	-ms-transform: translate(-0%, -50%)
+}
+
+.w3-display-right {
+	position: absolute;
+	top: 50%;
+	right: 0%;
+	transform: translate(0%, -50%);
+	-ms-transform: translate(0%, -50%)
+}
+
+.w3-display-topmiddle {
+	position: absolute;
+	left: 50%;
+	top: 0;
+	transform: translate(-50%, 0%);
+	-ms-transform: translate(-50%, 0%)
+}
+
+.w3-display-bottommiddle {
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	transform: translate(-50%, 0%);
+	-ms-transform: translate(-50%, 0%)
+}
+
+.w3-display-container:hover .w3-display-hover {
+	display: block
+}
+
+.w3-display-container:hover span.w3-display-hover {
+	display: inline-block
+}
+
+.w3-display-hover {
+	display: none
+}
+
+
+/*----Col----*/
+
+.w3-col,
+.w3-half,
+.w3-third,
+.w3-twothird,
+.w3-threequarter,
+.w3-quarter {
+	float: left;
+	width: 100%
+}
+
+.w3-col.s1 {
+	width: 8.33333%
+}
+
+.w3-col.s2 {
+	width: 16.66666%
+}
+
+.w3-col.s3 {
+	width: 24.99999%
+}
+
+.w3-col.s4 {
+	width: 33.33333%
+}
+
+.w3-col.s5 {
+	width: 41.66666%
+}
+
+.w3-col.s6 {
+	width: 49.99999%
+}
+
+.w3-col.s7 {
+	width: 58.33333%
+}
+
+.w3-col.s8 {
+	width: 66.66666%
+}
+
+.w3-col.s9 {
+	width: 74.99999%
+}
+
+.w3-col.s10 {
+	width: 83.33333%
+}
+
+.w3-col.s11 {
+	width: 91.66666%
+}
+
+.w3-col.s12,
+.w3-half,
+.w3-third,
+.w3-twothird,
+.w3-threequarter,
+.w3-quarter {
+	width: 99.99999%
+}
+
+
+/*Col Media Querry*/
+
+@media only screen and (min-width:601px) {
+	.w3-col.m1 {
+		width: 8.33333%
+	}
+	.w3-col.m2 {
+		width: 16.66666%
+	}
+	.w3-col.m3,
+	.w3-quarter {
+		width: 24.99999%
+	}
+	.w3-col.m4,
+	.w3-third {
+		width: 33.33333%
+	}
+	.w3-col.m5 {
+		width: 41.66666%
+	}
+	.w3-col.m6,
+	.w3-half {
+		width: 49.99999%
+	}
+	.w3-col.m7 {
+		width: 58.33333%
+	}
+	.w3-col.m8,
+	.w3-twothird {
+		width: 66.66666%
+	}
+	.w3-col.m9,
+	.w3-threequarter {
+		width: 74.99999%
+	}
+	.w3-col.m10 {
+		width: 83.33333%
+	}
+	.w3-col.m11 {
+		width: 91.66666%
+	}
+	.w3-col.m12 {
+		width: 99.99999%
+	}
+}
+
+
+/*Col Media Querry*/
+
+@media only screen and (min-width:993px) {
+	.w3-col.l1 {
+		width: 8.33333%
+	}
+	.w3-col.l2 {
+		width: 16.66666%
+	}
+	.w3-col.l3,
+	.w3-quarter {
+		width: 24.99999%
+	}
+	.w3-col.l4,
+	.w3-third {
+		width: 33.33333%
+	}
+	.w3-col.l5 {
+		width: 41.66666%
+	}
+	.w3-col.l6,
+	.w3-half {
+		width: 49.99999%
+	}
+	.w3-col.l7 {
+		width: 58.33333%
+	}
+	.w3-col.l8,
+	.w3-twothird {
+		width: 66.66666%
+	}
+	.w3-col.l9,
+	.w3-threequarter {
+		width: 74.99999%
+	}
+	.w3-col.l10 {
+		width: 83.33333%
+	}
+	.w3-col.l11 {
+		width: 91.66666%
+	}
+	.w3-col.l12 {
+		width: 99.99999%
+	}
+}
+
+
+/*----Margin----*/
+
+.w3-section {
+	margin-top: 16px!important;
+	margin-bottom: 16px!important
+}
+
+.w3-margin {
+	margin: 16px!important
+}
+
+.w3-margin-0 {
+	margin: 0!important
+}
+
+.w3-margin-top {
+	margin-top: 16px!important
+}
+
+.w3-margin-bottom {
+	margin-bottom: 16px!important
+}
+
+.w3-margin-left {
+	margin-left: 16px!important
+}
+
+.w3-margin-right {
+	margin-right: 16px!important
+}
+
+
+/*----Padding----*/
+
+.w3-padding-tiny {
+	padding: 2px 4px!important
+}
+
+.w3-padding-small {
+	padding: 4px 8px!important
+}
+
+.w3-padding-medium,
+.w3-padding,
+.w3-form {
+	padding: 8px 16px!important
+}
+
+.w3-padding-large {
+	padding: 12px 24px!important
+}
+
+.w3-padding-xlarge {
+	padding: 16px 32px!important
+}
+
+.w3-padding-xxlarge {
+	padding: 24px 48px!important
+}
+
+.w3-padding-jumbo {
+	padding: 32px 64px!important
+}
+
+.w3-row-padding,
+.w3-row-padding>.w3-half,
+.w3-row-padding>.w3-third,
+.w3-row-padding>.w3-twothird,
+.w3-row-padding>.w3-threequarter,
+.w3-row-padding>.w3-quarter,
+.w3-row-padding>.w3-col {
+	padding: 0 8px
+}
+
+.w3-padding-4 {
+	padding-top: 4px!important;
+	padding-bottom: 4px!important
+}
+
+.w3-padding-8 {
+	padding-top: 8px!important;
+	padding-bottom: 8px!important
+}
+
+.w3-padding-12 {
+	padding-top: 12px!important;
+	padding-bottom: 12px!important
+}
+
+.w3-padding-16 {
+	padding-top: 16px!important;
+	padding-bottom: 16px!important
+}
+
+.w3-padding-24 {
+	padding-top: 24px!important;
+	padding-bottom: 24px!important
+}
+
+.w3-padding-32 {
+	padding-top: 32px!important;
+	padding-bottom: 32px!important
+}
+
+.w3-padding-48 {
+	padding-top: 48px!important;
+	padding-bottom: 48px!important
+}
+
+.w3-padding-64 {
+	padding-top: 64px!important;
+	padding-bottom: 64px!important
+}
+
+.w3-padding-128 {
+	padding-top: 128px!important;
+	padding-bottom: 128px!important
+}
+
+.w3-padding-0 {
+	padding: 0!important
+}
+
+.w3-padding-top {
+	padding-top: 8px!important
+}
+
+.w3-padding-bottom {
+	padding-bottom: 8px!important
+}
+
+.w3-padding-left {
+	padding-left: 16px!important
+}
+
+.w3-padding-right {
+	padding-right: 16px!important
+}
