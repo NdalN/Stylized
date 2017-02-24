@@ -1,7 +1,8 @@
 /*=======Component=======*/
 /*----Boutton----*/
 
-.w3-btn, .w3-btn-block {
+.w3-btn,
+.w3-btn-block {
 	border: none;
 	display: inline-block;
 	outline: 0;
@@ -16,11 +17,18 @@
 	white-space: nowrap
 }
 
-.w3-btn:hover, .w3-btn-block:hover, .w3-btn-floating:hover, .w3-btn-floating-large:hover {
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
-}
+.w3-btn:hover,
+.w3-btn-block:hover,
+.w3-btn-floating:hover,
+.w3-btn-floating-large:hover
+{ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) }
 
-.w3-btn, .w3-btn-floating, .w3-btn-floating-large, .w3-closenav, .w3-opennav, .w3-btn-block {
+.w3-btn,
+.w3-btn-floating,
+.w3-btn-floating-large,
+.w3-closenav,
+.w3-opennav,
+.w3-btn-block {
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
 	-khtml-user-select: none;
@@ -29,7 +37,8 @@
 	user-select: none
 }
 
-.w3-btn-floating, .w3-btn-floating-large {
+.w3-btn-floating,
+.w3-btn-floating-large {
 	display: inline-block;
 	text-align: center;
 	color: #fff;
@@ -55,26 +64,32 @@
 	line-height: 56px
 }
 
-.w3-disabled, .w3-btn:disabled, .w3-btn-floating:disabled, .w3-btn-floating-large:disabled {
+.w3-disabled,
+.w3-btn:disabled,
+.w3-btn-floating:disabled,
+.w3-btn-floating-large:disabled {
 	cursor: not-allowed;
 	opacity: 0.3
 }
 
-.w3-btn.w3-disabled *, .w3-btn-block.w3-disabled, .w3-btn-floating.w3-disabled *, .w3-btn:disabled *, .w3-btn-floating:disabled * {
-	pointer-events: none
-}
+.w3-btn.w3-disabled *,
+.w3-btn-block.w3-disabled,
+.w3-btn-floating.w3-disabled *,
+.w3-btn:disabled *,
+.w3-btn-floating:disabled *
+{ pointer-events: none }
 
-.w3-btn.w3-disabled:hover, .w3-btn-block.w3-disabled:hover, .w3-btn:disabled:hover, .w3-btn-floating.w3-disabled:hover, .w3-btn-floating:disabled:hover, .w3-btn-floating-large.w3-disabled:hover, .w3-btn-floating-large:disabled:hover {
-	box-shadow: none
-}
+.w3-btn.w3-disabled:hover,
+.w3-btn-block.w3-disabled:hover,
+.w3-btn:disabled:hover,
+.w3-btn-floating.w3-disabled:hover,
+.w3-btn-floating:disabled:hover,
+.w3-btn-floating-large.w3-disabled:hover,
+.w3-btn-floating-large:disabled:hover
+{ box-shadow: none }
 
-.w3-btn-group .w3-btn {
-	float: left
-}
-
-.w3-btn-block {
-	width: 100%
-}
+.w3-btn-group .w3-btn { float: left }
+.w3-btn-block { width: 100% }
 
 .w3-btn-bar .w3-btn {
 	box-shadow: none;
@@ -83,9 +98,7 @@
 	float: left
 }
 
-.w3-btn-bar .w3-btn:hover {
-	background-color: #ccc
-}
+.w3-btn-bar .w3-btn:hover { background-color: #ccc }
 
 
 /*----Accordion----*/
@@ -109,14 +122,10 @@
 	display: block
 }
 
-.w3-accordion-content a:hover {
-	background-color: #ccc
-}
+.w3-accordion-content a:hover { background-color: #ccc }
 
 /*----Image----*/
-img {
-	margin-bottom: -5px
-}
+img { margin-bottom: -5px }
 
 .w3-image {
 	max-width: 100%;
@@ -126,7 +135,9 @@ img {
 
 /*----Badge----*/
 
-.w3-badge, .w3-tag, .w3-sign {
+.w3-badge,
+.w3-tag,
+.w3-sign {
 	background-color: #000;
 	color: #fff;
 	display: inline-block;
@@ -135,9 +146,7 @@ img {
 	text-align: center
 }
 
-.w3-badge {
-	border-radius: 50%
-}
+.w3-badge { border-radius: 50% }
 
 
 /*----Modal----*/
@@ -152,8 +161,8 @@ img {
 	width: 100%;
 	height: 100%;
 	overflow: auto;
-	background-color: rgb(0, 0, 0);
-	background-color: rgba(0, 0, 0, 0.4)
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0,0.4)
 }
 
 .w3-modal-content {
@@ -173,7 +182,8 @@ img {
 	color: inherit
 }
 
-.w3-closebtn:hover, .w3-closebtn:focus {
+.w3-closebtn:hover,
+.w3-closebtn:focus {
 	color: #000;
 	text-decoration: none;
 	cursor: pointer
@@ -231,6 +241,4 @@ hr {
 	margin: 20px 0
 }
 
-a {
-	color: inherit
-}
+a { color: inherit }

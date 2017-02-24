@@ -5,9 +5,7 @@
 	transition: width 0.4s ease-in-out
 }
 
-.w3-animate-input:focus {
-	width: 100%!important
-}
+.w3-animate-input:focus { width: 100%!important }
 
 /*Animate fading*/
 .w3-animate-fading {

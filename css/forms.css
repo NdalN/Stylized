@@ -6,9 +6,7 @@
 	margin-bottom: 24px
 }
 
-.w3-input:not(:valid)~.w3-validate {
-	color: #f44336
-}
+.w3-input:not(:valid)~.w3-validate { color: #f44336 }
 
 .w3-input {
 	padding: 8px;
@@ -18,27 +16,26 @@
 	width: 100%
 }
 
-.w3-label {
-	color: #009688
-}
+.w3-label { color: #009688 }
 
 
 /*----Input CheckBox----*/
 
-input[type=checkbox].w3-check, input[type=radio].w3-radio {
+input[type=checkbox].w3-check,
+input[type=radio].w3-radio {
 	width: 24px;
 	height: 24px;
 	position: relative;
 	top: 6px
 }
 
-input[type=checkbox].w3-check:checked+.w3-validate, input[type=radio].w3-radio:checked+.w3-validate {
-	color: #009688
-}
+input[type=checkbox].w3-check:checked+.w3-validate,
+input[type=radio].w3-radio:checked+.w3-validate
+{ color: #009688 }
 
-input[type=checkbox].w3-check:disabled+.w3-validate, input[type=radio].w3-radio:disabled+.w3-validate {
-	color: #aaa
-}
+input[type=checkbox].w3-check:disabled+.w3-validate,
+input[type=radio].w3-radio:disabled+.w3-validate
+{ color: #aaa }
 
 
 /*----Input Select----*/
@@ -56,6 +53,5 @@ input[type=checkbox].w3-check:disabled+.w3-validate, input[type=radio].w3-radio:
 	border: 1px solid #009688
 }
 
-.w3-select option[disabled] {
-	color: #009688
-}
+.w3-select option[disabled]
+{ color: #009688 }

@@ -1,15 +1,7 @@
 /*=======Globals=======*/
-html {
-	overflow-x: hidden
-}
-
-html {
-	box-sizing:border-box
-}
-
-*,*:before,*:after {
-	box-sizing:inherit
-}
+*,*:before,*:after { box-sizing:inherit }
+html { overflow-x: hidden }
+html { box-sizing:border-box }
 
 .w3-container:after,
 .w3-panel:after,
@@ -44,6 +36,17 @@ html {
 .w3-closenav,
 .w3-closebtn,
 *[class*="w3-hover-"] {
-	-webkit-transition: background-color .25s, color .15s, box-shadow .25s, opacity 0.25s, filter 0.25s, border 0.15s;
-	transition: background-color .25s, color .15s, box-shadow .15s, opacity .25s, filter .25s, border .15s
+	-webkit-transition: background-color .25s,
+		color .15s,
+		box-shadow .25s,
+		opacity 0.25s,
+		filter 0.25s,
+		border 0.15s;
+
+	transition: background-color .25s,
+		color .15s,
+		box-shadow .15s,
+		opacity .25s,
+		filter .25s,
+		border .15s
 }
