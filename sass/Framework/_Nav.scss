@@ -1,0 +1,194 @@
+/*=======Nav=======*/
+/*----Global----*/
+.sy-navbar a,
+.sy-topnav a,
+.sy-sidenav a,
+.sy-dropdown-content a,
+.sy-accordion-content a,
+.sy-dropnav a
+{ text-decoration: none!important }
+
+/*----NavBar----*/
+.sy-navbar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden
+}
+
+/*Elemente*/
+.sy-navbar li { float: left}
+
+.sy-navbar li a,
+.sy-navitem,
+.sy-navbar li .sy-btn,
+.sy-navbar li .sy-input {
+	display: block;
+	padding: 8px 16px
+}
+
+.sy-navbar li .sy-btn,
+.sy-navbar li .sy-input {
+	border: none;
+	outline: none;
+	width: 100%
+}
+
+.sy-navbar li a:hover {
+	color: #000;
+	background-color: #ccc
+}
+
+.sy-navbar .sy-dropdown-hover,
+.sy-navbar .sy-dropdown-click
+{ position: static }
+
+.sy-navbar .sy-dropdown-hover:hover,
+.sy-navbar .sy-dropdown-hover:first-child,
+.sy-navbar .sy-dropdown-click:hover {
+	background-color: #ccc;
+	color: #000
+}
+
+.sy-navbar .sy-opennav.sy-right { float: right!important }
+
+/*----TopNav----*/
+.sy-topnav { padding: 8px 8px }
+
+.sy-topnav a {
+	padding: 0 8px;
+	border-bottom: 3px solid transparent;
+	-webkit-transition: border-bottom .25s;
+	transition: border-bottom .25s
+}
+
+.sy-topnav a:hover { border-bottom: 3px solid #fff }
+.sy-topnav .sy-dropdown-hover a { border-bottom: 0 }
+
+/*----Side Nav----*/
+.sy-sidenav {
+	height: 100%;
+	width: 200px;
+	background-color: #fff;
+	position: fixed!important;
+	z-index: 1;
+	overflow: auto
+}
+
+.sy-sidenav a { padding: 4px 2px 4px 16px }
+.sy-sidenav a:hover { background-color: #ccc }
+
+.sy-sidenav a,
+.sy-dropnav a
+{ display: block }
+
+.sy-sidenav .sy-dropdown-hover:hover,
+.sy-sidenav .sy-dropdown-hover:first-child,
+.sy-sidenav .sy-dropdown-click:hover,
+.sy-dropnav a:hover {
+	background-color: #ccc;
+	color: #000
+}
+
+.sy-sidenav .sy-dropdown-hover,
+.sy-sidenav .sy-dropdown-click
+{ width: 100% }
+
+.sy-sidenav .sy-dropdown-hover .sy-dropdown-content,
+.sy-sidenav .sy-dropdown-click .sy-dropdown-content
+{ min-width: 100% }
+
+/*----Nav Element----*/
+.sy-opennav,
+.sy-closenav
+{ color: inherit }
+
+.sy-opennav:hover,
+.sy-closenav:hover {
+	cursor: pointer;
+	opacity: 0.8
+}
+
+/*----Nav Media Querry----*/
+
+@media screen and (max-width: 600px) {
+	.sy-topnav a {
+		display: block
+	}
+
+	.sy-navbar li:not(.sy-opennav) {
+		float: none;
+		width: 100%!important
+	}
+
+	.sy-navbar li.sy-right {
+		float: none!important
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.sy-topnav .sy-dropdown-hover .sy-dropdown-content,
+	.sy-navbar .sy-dropdown-click .sy-dropdown-content,
+	.sy-navbar .sy-dropdown-hover .sy-dropdown-content
+	{
+		position: relative
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.sy-topnav,
+	.sy-navbar {
+		text-align: center
+	}
+}
+
+/*----Dropdown----*/
+
+.sy-dropdown-click,
+.sy-dropdown-hover {
+	position: relative;
+	display: inline-block;
+	cursor: pointer
+}
+
+.sy-dropdown-hover:hover .sy-dropdown-content {
+	display: block;
+	z-index: 1
+}
+
+.sy-dropdown-content {
+	cursor: auto;
+	color: #000;
+	background-color: #fff;
+	display: none;
+	position: absolute;
+	min-width: 160px;
+	margin: 0;
+	padding: 0
+}
+
+.sy-dropdown-content a {
+	padding: 6px 16px;
+	display: block
+}
+
+.sy-dropdown-content a:hover { background-color: #ccc }
+
+/*----Pagination----*/
+
+.sy-pagination {
+	display: inline-block;
+	padding: 0;
+	margin: 0
+}
+
+.sy-pagination li { display: inline }
+
+.sy-pagination li a {
+	text-decoration: none;
+	color: #000;
+	float: left;
+	padding: 8px 16px
+}
+
+.sy-pagination li a:hover { background-color: #ccc }

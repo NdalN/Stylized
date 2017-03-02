@@ -1,0 +1,101 @@
+/*=======Font=======*/
+/*----Global----*/
+html,
+body {
+	font-family: Verdana, sans-serif;
+	font-size: 15px;
+	line-height: 1.5
+}
+
+/*----Title----*/
+
+h1, h2, h3, h4, h5, h6 {
+	font-size: 36px;
+	margin: 10px 0;
+	font-weight: 400;
+}
+
+h2 { font-size: 30px }
+h3 { font-size: 24px }
+h4 { font-size: 20px }
+h5 { font-size: 18px }
+h6 { font-size: 16px }
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a
+{ font-weight: inherit }
+
+
+/*----Font----*/
+
+h1, h2, h3, h4, h5, h6, .sy-slim, .sy-wide { font-family: "Segoe UI", Arial, sans-serif }
+.sy-serif { font-family: "Times New Roman", Times, serif }
+
+.sy-code, .sy-codespan {
+	font-family: Consolas, "courier new";
+	font-size: 16px
+}
+
+
+/*----Text Format----*/
+
+.sy-wide { letter-spacing: 4px }
+
+.sy-codespan {
+	color: crimson;
+	background-color: #f1f1f1;
+	padding-left: 4px;
+	padding-right: 4px;
+	font-size: 110%
+}
+
+.sy-code {
+	line-height: 1.4;
+	width: auto;
+	background-color: #fff;
+	padding: 8px 12px;
+	border-left: 4px solid #4CAF50;
+	word-wrap: break-word
+}
+
+.sy-example, .sy-code { margin: 20px 0 }
+
+.sy-example {
+	background-color: #f1f1f1;
+	padding: 0.01em 16px
+}
+
+
+/*----Font Size----*/
+
+.sy-tiny { font-size: 10px!important }
+.sy-small { font-size: 12px!important }
+.sy-medium { font-size: 15px!important }
+.sy-large { font-size: 18px!important }
+.sy-xlarge { font-size: 24px!important }
+.sy-xxlarge { font-size: 36px!important }
+.sy-xxxlarge { font-size: 48px!important }
+.sy-jumbo { font-size: 64px!important }
+
+/*----Text Align----*/
+
+.sy-vertical {
+	word-break: break-all;
+	line-height: 1;
+	text-align: center;
+	width: 0.6em
+}
+
+.sy-left-align { text-align: left!important }
+.sy-right-align { text-align: right!important }
+.sy-justify { text-align: justify!important }
+.sy-center { text-align: center!important }
+
+/*----Text Decoration----*/
+
+.sy-text-shadow { text-shadow: 1px 1px 0 #444}
+.sy-text-shadow-white { text-shadow: 1px 1px 0 #ddd;}

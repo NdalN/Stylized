@@ -1,0 +1,48 @@
+/*=======Table=======*/
+/*----table----*/
+.sy-table,
+.sy-table-all {
+	border-collapse:collapse;
+	border-spacing:0;
+	width:100%;
+	display:table
+}
+
+.sy-table td,
+.sy-table th,
+.sy-table-all td,
+.sy-table-all th {
+	padding:8px 8px;
+	display:table-cell;
+	text-align:left;
+	vertical-align:top
+}
+
+.sy-table th:first-child,
+.sy-table td:first-child,
+.sy-table-all th:first-child,
+.sy-table-all td:first-child
+{ padding-left:16px }
+
+.sy-table-all { border:1px solid #ccc }
+
+.sy-table-all tr:nth-child(odd) { background-color:#fff }
+
+.sy-table-all tr:nth-child(even) { background-color:#f1f1f1 }
+
+
+/*Effect*/
+.sy-bordered tr,
+.sy-table-all tr
+{ border-bottom:1px solid #ddd }
+
+.sy-striped tbody tr:nth-child(even) { background-color:#f1f1f1 }
+
+.sy-hoverable tbody tr:hover,
+.sy-ul.sy-hoverable li:hover
+{ background-color:#ccc }
+
+.sy-centered tr th,
+.sy-centered tr td
+{ text-align:center }
+

@@ -1,14 +1,14 @@
 /*=======Animation=======*/
 /*Animation Input*/
-.w3-animate-input {
+.sy-animate-input {
 	-webkit-transition: width 0.4s ease-in-out;
 	transition: width 0.4s ease-in-out
 }
 
-.w3-animate-input:focus { width: 100%!important }
+.sy-animate-input:focus { width: 100%!important }
 
 /*Animate fading*/
-.w3-animate-fading {
+.sy-animate-fading {
 	-webkit-animation: fading 10s infinite;
 	animation: fading 10s infinite
 }
@@ -38,7 +38,7 @@
 }
 
 /*Animate opacity*/
-.w3-animate-opacity {
+.sy-animate-opacity {
 	-webkit-animation: opac 0.8s;
 	animation: opac 0.8s
 }
@@ -62,7 +62,7 @@
 }
 
 /*Animate top*/
-.w3-animate-top {
+.sy-animate-top {
 	position: relative;
 	-webkit-animation: animatetop 0.4s;
 	animation: animatetop 0.4s
@@ -91,7 +91,7 @@
 }
 
 /*Animate left*/
-.w3-animate-left {
+.sy-animate-left {
 	position: relative;
 	-webkit-animation: animateleft 0.4s;
 	animation: animateleft 0.4s
@@ -120,7 +120,7 @@
 }
 
 /*Animate rigth*/
-.w3-animate-right {
+.sy-animate-right {
 	position: relative;
 	-webkit-animation: animateright 0.4s;
 	animation: animateright 0.4s
@@ -149,7 +149,7 @@
 }
 
 /*Animate bottom*/
-.w3-animate-bottom {
+.sy-animate-bottom {
 	position: relative;
 	-webkit-animation: animatebottom 0.4s;
 	animation: animatebottom 0.4s
@@ -178,7 +178,7 @@
 }
 
 /*Animate-zoon*/
-.w3-animate-zoom {
+.sy-animate-zoom {
 	-webkit-animation: animatezoom 0.6s;
 	animation: animatezoom 0.6s
 }
@@ -202,12 +202,12 @@
 }
 
 /*Spin*/
-.w3-spin {
-	animation: w3-spin 2s infinite linear;
-	-webkit-animation: w3-spin 2s infinite linear
+.sy-spin {
+	animation: sy-spin 2s infinite linear;
+	-webkit-animation: sy-spin 2s infinite linear
 }
 
-@-webkit-keyframes w3-spin {
+@-webkit-keyframes sy-spin {
 	0% {
 		-webkit-transform: rotate(0deg);
 		transform: rotate(0deg)
@@ -218,7 +218,7 @@
 	}
 }
 
-@keyframes w3-spin {
+@keyframes sy-spin {
 	0% {
 		-webkit-transform: rotate(0deg);
 		transform: rotate(0deg)

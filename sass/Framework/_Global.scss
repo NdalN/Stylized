@@ -1,0 +1,52 @@
+/*=======Globals=======*/
+*,*:before,*:after { box-sizing:inherit }
+html { overflow-x: hidden }
+html { box-sizing:border-box }
+
+.sy-container:after,
+.sy-panel:after,
+.sy-row:after,
+.sy-row-padding:after,
+.sy-topnav:after,
+.sy-clear:after,
+.sy-btn-group:before,
+.sy-btn-group:after,
+.sy-btn-bar:before,
+.sy-btn-bar:after {
+	content: "";
+	display: table;
+	clear: both
+}
+
+.sy-btn,
+.sy-btn-floating,
+.sy-dropnav a,
+.sy-btn-floating-large,
+.sy-btn-block,
+.sy-navbar a,
+.sy-sidenav a,
+.sy-pagination li a,
+.sy-hoverable tbody tr,
+.sy-hoverable li,
+.sy-accordion-content a,
+.sy-dropdown-content a,
+.sy-dropdown-click:hover,
+.sy-dropdown-hover:hover,
+.sy-opennav,
+.sy-closenav,
+.sy-closebtn,
+*[class*="sy-hover-"] {
+	-webkit-transition: background-color .25s,
+		color .15s,
+		box-shadow .25s,
+		opacity 0.25s,
+		filter 0.25s,
+		border 0.15s;
+
+	transition: background-color .25s,
+		color .15s,
+		box-shadow .15s,
+		opacity .25s,
+		filter .25s,
+		border .15s
+}

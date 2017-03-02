@@ -1,8 +1,8 @@
 /*=======Component=======*/
 /*----Boutton----*/
 
-.w3-btn,
-.w3-btn-block {
+.sy-btn,
+.sy-btn-block {
 	border: none;
 	display: inline-block;
 	outline: 0;
@@ -17,18 +17,18 @@
 	white-space: nowrap
 }
 
-.w3-btn:hover,
-.w3-btn-block:hover,
-.w3-btn-floating:hover,
-.w3-btn-floating-large:hover
+.sy-btn:hover,
+.sy-btn-block:hover,
+.sy-btn-floating:hover,
+.sy-btn-floating-large:hover
 { box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) }
 
-.w3-btn,
-.w3-btn-floating,
-.w3-btn-floating-large,
-.w3-closenav,
-.w3-opennav,
-.w3-btn-block {
+.sy-btn,
+.sy-btn-floating,
+.sy-btn-floating-large,
+.sy-closenav,
+.sy-opennav,
+.sy-btn-block {
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
 	-khtml-user-select: none;
@@ -37,8 +37,8 @@
 	user-select: none
 }
 
-.w3-btn-floating,
-.w3-btn-floating-large {
+.sy-btn-floating,
+.sy-btn-floating-large {
 	display: inline-block;
 	text-align: center;
 	color: #fff;
@@ -52,63 +52,63 @@
 	font-size: 24px
 }
 
-.w3-btn-floating {
+.sy-btn-floating {
 	width: 40px;
 	height: 40px;
 	line-height: 40px
 }
 
-.w3-btn-floating-large {
+.sy-btn-floating-large {
 	width: 56px;
 	height: 56px;
 	line-height: 56px
 }
 
-.w3-disabled,
-.w3-btn:disabled,
-.w3-btn-floating:disabled,
-.w3-btn-floating-large:disabled {
+.sy-disabled,
+.sy-btn:disabled,
+.sy-btn-floating:disabled,
+.sy-btn-floating-large:disabled {
 	cursor: not-allowed;
 	opacity: 0.3
 }
 
-.w3-btn.w3-disabled *,
-.w3-btn-block.w3-disabled,
-.w3-btn-floating.w3-disabled *,
-.w3-btn:disabled *,
-.w3-btn-floating:disabled *
+.sy-btn.sy-disabled *,
+.sy-btn-block.sy-disabled,
+.sy-btn-floating.sy-disabled *,
+.sy-btn:disabled *,
+.sy-btn-floating:disabled *
 { pointer-events: none }
 
-.w3-btn.w3-disabled:hover,
-.w3-btn-block.w3-disabled:hover,
-.w3-btn:disabled:hover,
-.w3-btn-floating.w3-disabled:hover,
-.w3-btn-floating:disabled:hover,
-.w3-btn-floating-large.w3-disabled:hover,
-.w3-btn-floating-large:disabled:hover
+.sy-btn.sy-disabled:hover,
+.sy-btn-block.sy-disabled:hover,
+.sy-btn:disabled:hover,
+.sy-btn-floating.sy-disabled:hover,
+.sy-btn-floating:disabled:hover,
+.sy-btn-floating-large.sy-disabled:hover,
+.sy-btn-floating-large:disabled:hover
 { box-shadow: none }
 
-.w3-btn-group .w3-btn { float: left }
-.w3-btn-block { width: 100% }
+.sy-btn-group .sy-btn { float: left }
+.sy-btn-block { width: 100% }
 
-.w3-btn-bar .w3-btn {
+.sy-btn-bar .sy-btn {
 	box-shadow: none;
 	background-color: inherit;
 	color: inherit;
 	float: left
 }
 
-.w3-btn-bar .w3-btn:hover { background-color: #ccc }
+.sy-btn-bar .sy-btn:hover { background-color: #ccc }
 
 
 /*----Accordion----*/
 
-.w3-accordion {
+.sy-accordion {
 	width: 100%;
 	cursor: pointer
 }
 
-.w3-accordion-content {
+.sy-accordion-content {
 	cursor: auto;
 	display: none;
 	position: relative;
@@ -117,17 +117,17 @@
 	padding: 0
 }
 
-.w3-accordion-content a {
+.sy-accordion-content a {
 	padding: 6px 16px;
 	display: block
 }
 
-.w3-accordion-content a:hover { background-color: #ccc }
+.sy-accordion-content a:hover { background-color: #ccc }
 
 /*----Image----*/
 img { margin-bottom: -5px }
 
-.w3-image {
+.sy-image {
 	max-width: 100%;
 	height: auto
 }
@@ -135,9 +135,9 @@ img { margin-bottom: -5px }
 
 /*----Badge----*/
 
-.w3-badge,
-.w3-tag,
-.w3-sign {
+.sy-badge,
+.sy-tag,
+.sy-sign {
 	background-color: #000;
 	color: #fff;
 	display: inline-block;
@@ -146,12 +146,12 @@ img { margin-bottom: -5px }
 	text-align: center
 }
 
-.w3-badge { border-radius: 50% }
+.sy-badge { border-radius: 50% }
 
 
 /*----Modal----*/
 
-.w3-modal {
+.sy-modal {
 	z-index: 3;
 	display: none;
 	padding-top: 100px;
@@ -165,7 +165,7 @@ img { margin-bottom: -5px }
 	background-color: rgba(0,0,0,0.4)
 }
 
-.w3-modal-content {
+.sy-modal-content {
 	margin: auto;
 	background-color: #fff;
 	position: relative;
@@ -174,7 +174,7 @@ img { margin-bottom: -5px }
 	width: 600px
 }
 
-.w3-closebtn {
+.sy-closebtn {
 	text-decoration: none;
 	float: right;
 	font-size: 24px;
@@ -182,8 +182,8 @@ img { margin-bottom: -5px }
 	color: inherit
 }
 
-.w3-closebtn:hover,
-.w3-closebtn:focus {
+.sy-closebtn:hover,
+.sy-closebtn:focus {
 	color: #000;
 	text-decoration: none;
 	cursor: pointer
@@ -193,26 +193,26 @@ img { margin-bottom: -5px }
 /*Modal Media Querry*/
 
 @media (max-width:600px) {
-	.w3-modal-content {
+	.sy-modal-content {
 		margin: 0 10px;
 		width: auto!important
 	}
-	.w3-modal {
+	.sy-modal {
 		padding-top: 30px
 	}
 }
 
 @media (max-width:768px) {
-	.w3-modal-content {
+	.sy-modal-content {
 		width: 500px
 	}
-	.w3-modal {
+	.sy-modal {
 		padding-top: 50px
 	}
 }
 
 @media (min-width:993px) {
-	.w3-modal-content {
+	.sy-modal-content {
 		width: 900px
 	}
 }
@@ -220,14 +220,14 @@ img { margin-bottom: -5px }
 
 /*----Progress bar----*/
 
-.w3-progress-container {
+.sy-progress-container {
 	width: 100%;
 	height: 1.5em;
 	position: relative;
 	background-color: #f1f1f1
 }
 
-.w3-progressbar {
+.sy-progressbar {
 	background-color: #757575;
 	height: 100%;
 	position: absolute;
@@ -242,3 +242,56 @@ hr {
 }
 
 a { color: inherit }
+
+
+/*Bar*/
+.sy-bar {
+	width:100%;
+	overflow: hidden
+}
+.sy-center .sy-bar
+{
+	display: inline-block;
+	width: auto
+}
+
+.sy-bar-item
+{
+	padding: 8px 16px;
+	float: left;
+	background-color: inherit;
+	color: inherit;
+	width: auto;
+	border: none;
+	outline: none;
+	display: block
+}
+
+.sy-bar .sy-btn
+{
+	padding: 8px 16px;
+	background-color: inherit;
+	color: inherit;
+	box-shadow: none
+}
+
+.sy-bar .sy-btn:hover
+{
+	color: #000!important;
+	background-color: #ccc!important
+}
+
+.sy-bar .sy-dropdown-hover,
+.sy-bar .sy-dropdown-click
+{
+	position: static;
+	float: left
+}
+
+.sy-bar .sy-dropdown-hover:hover,
+.sy-bar .sy-dropdown-hover:first-child,
+.sy-bar .sy-dropdown-click:hover
+{
+	background-color: #ccc;
+	color: #000
+}
